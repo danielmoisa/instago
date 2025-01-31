@@ -14,6 +14,6 @@ func main() {
 		Config: *cfg,
 	}
 
-	log.Fatal(app.Run())
-
+	mux := app.Mount()
+	log.Fatal(app.Run(mux))
 }
