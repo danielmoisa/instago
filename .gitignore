@@ -29,3 +29,5 @@
 # Ignore dependency directories and caches
 .GOPATH/
 .Gocache/
+
+.env
